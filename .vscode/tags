@@ -1,0 +1,123 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CORS	../__init__.py	/^from flask_cors import CORS, cross_origin$/;"	kind:namespace	line:2
+EXCHANGE_MAP	../test.py	/^	EXCHANGE_MAP = {$/;"	kind:variable	line:755
+Flask	../__init__.py	/^from flask import Flask$/;"	kind:namespace	line:1
+INDICES	../test.py	/^	INDICES = [EXCHANGE_MAP["nseindices"]]$/;"	kind:variable	line:767
+KiteConnect	../kitelogin.py	/^from kiteconnect import KiteConnect$/;"	kind:namespace	line:3
+KiteConnect	../test.py	/^class KiteConnect(object):$/;"	kind:class	line:107
+MODE_FULL	../test.py	/^	MODE_FULL = "full"$/;"	kind:variable	line:774
+MODE_LTP	../test.py	/^	MODE_LTP = "ltp"$/;"	kind:variable	line:776
+MODE_QUOTE	../test.py	/^	MODE_QUOTE = "quote"$/;"	kind:variable	line:775
+PY2	../test.py	/^from six import StringIO, PY2$/;"	kind:namespace	line:86
+READ_TIMEOUT	../test.py	/^	READ_TIMEOUT = 5$/;"	kind:variable	line:769
+RECONNECT_INTERVAL	../test.py	/^	RECONNECT_INTERVAL = 5$/;"	kind:variable	line:770
+RECONNECT_TRIES	../test.py	/^	RECONNECT_TRIES = 50$/;"	kind:variable	line:771
+Response	../views.py	/^from flask import request, make_response, jsonify, Response, redirect$/;"	kind:namespace	line:3
+StringIO	../test.py	/^from six import StringIO, PY2$/;"	kind:namespace	line:86
+WebSocket	../test.py	/^class WebSocket(object):$/;"	kind:class	line:648
+__init__	../test.py	/^	def __init__(self, api_key, access_token=None, root=None, debug=False, timeout=7, micro_cache=True, proxies=None, pool=None):$/;"	kind:member	line:162
+__init__	../test.py	/^	def __init__(self, api_key, public_token, user_id, root=None, reconnect=False,$/;"	kind:member	line:788
+__init__.py	../__init__.py	1;"	kind:file	line:1
+_create_connection	../test.py	/^	def _create_connection(self, url):$/;"	kind:member	line:839
+_delete	../test.py	/^	def _delete(self, route, params=None):$/;"	kind:member	line:556
+_get	../test.py	/^	def _get(self, route, params=None):$/;"	kind:member	line:544
+_login	../test.py	/^	_login = "https:\/\/kite.trade\/connect\/login"$/;"	kind:variable	line:116
+_message_code	../test.py	/^	_message_code = 11$/;"	kind:variable	line:779
+_message_setmode	../test.py	/^	_message_setmode = "mode"$/;"	kind:variable	line:782
+_message_subscribe	../test.py	/^	_message_subscribe = "subscribe"$/;"	kind:variable	line:780
+_message_unsubscribe	../test.py	/^	_message_unsubscribe = "unsubscribe"$/;"	kind:variable	line:781
+_on_close	../test.py	/^	def _on_close(self, ws):$/;"	kind:member	line:1059
+_on_connect	../test.py	/^	def _on_connect(self, ws):$/;"	kind:member	line:1024
+_on_data	../test.py	/^	def _on_data(self, ws, data, resp_type, data_continue):$/;"	kind:member	line:1049
+_on_error	../test.py	/^	def _on_error(self, ws, error):$/;"	kind:member	line:1076
+_on_message	../test.py	/^	def _on_message(self, ws, message):$/;"	kind:member	line:1083
+_parse_binary	../test.py	/^	def _parse_binary(self, bin):$/;"	kind:member	line:1112
+_parse_csv	../test.py	/^	def _parse_csv(self, data):$/;"	kind:member	line:510
+_parse_mf_instruments	../test.py	/^	def _parse_mf_instruments(self, data):$/;"	kind:member	line:532
+_post	../test.py	/^	def _post(self, route, params=None):$/;"	kind:member	line:548
+_put	../test.py	/^	def _put(self, route, params=None):$/;"	kind:member	line:552
+_request	../test.py	/^	def _request(self, route, method, parameters=None):$/;"	kind:member	line:560
+_root	../test.py	/^	_root = "https:\/\/api.kite.trade"$/;"	kind:variable	line:115
+_root	../test.py	/^	_root = "wss:\/\/websocket.kite.trade\/"$/;"	kind:variable	line:786
+_routes	../test.py	/^	_routes = {$/;"	kind:variable	line:119
+_split_packets	../test.py	/^	def _split_packets(self, bin):$/;"	kind:member	line:1209
+_timeout	../test.py	/^	_timeout = 7$/;"	kind:variable	line:160
+_timer	../test.py	/^	def _timer(self):$/;"	kind:member	line:1088
+_unpack_int	../test.py	/^	def _unpack_int(self, bin, start, end, byte_format="I"):$/;"	kind:member	line:1226
+app	../__init__.py	/^app = Flask(__name__)$/;"	kind:variable	line:4
+app	../kitelogin.py	/^from natrayan import app$/;"	kind:namespace	line:1
+app	../views.py	/^from natrayan import app$/;"	kind:namespace	line:1
+close	../test.py	/^	def close(self):$/;"	kind:member	line:929
+connect	../test.py	/^	def connect(self, threaded=False, disable_ssl_verification=False, proxy=None):$/;"	kind:member	line:848
+cross_origin	../__init__.py	/^from flask_cors import CORS, cross_origin$/;"	kind:namespace	line:2
+csv	../test.py	/^import csv$/;"	kind:namespace	line:88
+disable_reconnect	../test.py	/^	def disable_reconnect(self):$/;"	kind:member	line:1020
+enable_reconnect	../test.py	/^	def enable_reconnect(self, reconnect_interval=None, reconnect_tries=None):$/;"	kind:member	line:1009
+ex	../test.py	/^import kiteconnect.exceptions as ex$/;"	kind:namespace	line:99
+hashlib	../test.py	/^import hashlib$/;"	kind:namespace	line:92
+historical	../test.py	/^	def historical(self, instrument_token, from_date, to_date, interval, continuous=False):$/;"	kind:member	line:474
+holdings	../test.py	/^	def holdings(self):$/;"	kind:member	line:353
+index	../views.py	/^def index():$/;"	kind:function	line:11
+instruments	../test.py	/^	def instruments(self, exchange=None):$/;"	kind:member	line:457
+invalidate_token	../test.py	/^	def invalidate_token(self, access_token=None):$/;"	kind:member	line:253
+is_connected	../test.py	/^	def is_connected(self):$/;"	kind:member	line:897
+json	../kitelogin.py	/^import json$/;"	kind:namespace	line:6
+json	../test.py	/^import json$/;"	kind:namespace	line:90
+jsonify	../views.py	/^from flask import request, make_response, jsonify, Response, redirect$/;"	kind:namespace	line:3
+kiteconnect	../test.py	/^import kiteconnect.exceptions as ex$/;"	kind:namespace	line:99
+kitelogin	../__init__.py	/^from natrayan import kitelogin$/;"	kind:namespace	line:8
+kitelogin.py	../kitelogin.py	1;"	kind:file	line:1
+logger	../test.py	/^logger = logging.getLogger(__name__)$/;"	kind:variable	line:103
+logging	../test.py	/^import logging$/;"	kind:namespace	line:93
+login_url	../test.py	/^	def login_url(self):$/;"	kind:member	line:225
+loginroute	../kitelogin.py	/^def loginroute():$/;"	kind:function	line:9
+make_response	../views.py	/^from flask import request, make_response, jsonify, Response, redirect$/;"	kind:namespace	line:3
+margins	../test.py	/^	def margins(self, segment):$/;"	kind:member	line:263
+mf_holdings	../test.py	/^	def mf_holdings(self):$/;"	kind:member	line:449
+mf_instruments	../test.py	/^	def mf_instruments(self):$/;"	kind:member	line:453
+mf_order_cancel	../test.py	/^	def mf_order_cancel(self, order_id):$/;"	kind:member	line:398
+mf_order_place	../test.py	/^	def mf_order_place(self,$/;"	kind:member	line:383
+mf_orders	../test.py	/^	def mf_orders(self, order_id=None):$/;"	kind:member	line:376
+mf_sip_cancel	../test.py	/^	def mf_sip_cancel(self, sip_id):$/;"	kind:member	line:445
+mf_sip_modify	../test.py	/^	def mf_sip_modify(self,$/;"	kind:member	line:428
+mf_sip_place	../test.py	/^	def mf_sip_place(self,$/;"	kind:member	line:409
+mf_sips	../test.py	/^	def mf_sips(self, sip_id=None):$/;"	kind:member	line:402
+order_cancel	../test.py	/^	def order_cancel(self, order_id, variety="regular", parent_order_id=None):$/;"	kind:member	line:320
+order_modify	../test.py	/^	def order_modify(self,$/;"	kind:member	line:296
+order_place	../test.py	/^	def order_place(self,$/;"	kind:member	line:270
+orders	../test.py	/^	def orders(self, order_id=None):$/;"	kind:member	line:329
+positions	../test.py	/^	def positions(self):$/;"	kind:member	line:349
+product_modify	../test.py	/^	def product_modify(self,$/;"	kind:member	line:357
+quote	../test.py	/^	def quote(self, exchange, tradingsymbol):$/;"	kind:member	line:470
+reconnect	../test.py	/^	def reconnect(self):$/;"	kind:member	line:904
+redirect	../kitelogin.py	/^from flask import redirect, request$/;"	kind:namespace	line:2
+redirect	../views.py	/^from flask import request, make_response, jsonify, Response, redirect$/;"	kind:namespace	line:3
+redirets	../kitelogin.py	/^def redirets():$/;"	kind:function	line:18
+request	../kitelogin.py	/^from flask import redirect, request$/;"	kind:namespace	line:2
+request	../views.py	/^from flask import request, make_response, jsonify, Response, redirect$/;"	kind:namespace	line:3
+request_access_token	../test.py	/^	def request_access_token(self, request_token, secret):$/;"	kind:member	line:232
+requests	../kitelogin.py	/^import requests$/;"	kind:namespace	line:5
+requests	../test.py	/^import requests$/;"	kind:namespace	line:94
+requests	../views.py	/^import requests$/;"	kind:namespace	line:6
+resubscribe	../test.py	/^	def resubscribe(self):$/;"	kind:member	line:985
+set_access_token	../test.py	/^	def set_access_token(self, access_token):$/;"	kind:member	line:221
+set_mode	../test.py	/^	def set_mode(self, mode, instrument_tokens):$/;"	kind:member	line:967
+set_session_hook	../test.py	/^	def set_session_hook(self, method):$/;"	kind:member	line:207
+ssl	../test.py	/^import ssl$/;"	kind:namespace	line:87
+struct	../test.py	/^import struct$/;"	kind:namespace	line:91
+subscribe	../test.py	/^	def subscribe(self, instrument_tokens):$/;"	kind:member	line:934
+sys	../test.py	/^				import sys$/;"	kind:namespace	line:890
+test.py	../test.py	1;"	kind:file	line:1
+threading	../test.py	/^import threading$/;"	kind:namespace	line:95
+time	../test.py	/^import time$/;"	kind:namespace	line:89
+trades	../test.py	/^	def trades(self, order_id=None):$/;"	kind:member	line:336
+trigger_range	../test.py	/^	def trigger_range(self, exchange, tradingsymbol, transaction_type):$/;"	kind:member	line:506
+unsubscribe	../test.py	/^	def unsubscribe(self, instrument_tokens):$/;"	kind:member	line:949
+views	../__init__.py	/^from natrayan import views$/;"	kind:namespace	line:7
+views.py	../views.py	1;"	kind:file	line:1
+websocket	../test.py	/^import websocket$/;"	kind:namespace	line:97
